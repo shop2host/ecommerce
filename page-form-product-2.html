@@ -38,16 +38,6 @@
                     </a>
                 </li>
                 <li class="menu-item">
-                    <a class="menu-link" href="page-account-login.html"> <i class="icon material-icons md-login"></i>
-                        <span class="text">Login</span>
-                    </a>
-                </li>
-                <li class="menu-item">
-                    <a class="menu-link" href="page-account-register.html"> <i class="icon material-icons md-person_add"></i>
-                        <span class="text">Register</span>
-                    </a>
-                </li>
-                <li class="menu-item">
                     <a class="menu-link" href="page-categories.html"> <i class="icon material-icons md-category"></i>
                         <span class="text">Add Category</span>
                     </a>
@@ -63,18 +53,8 @@
                     </a>
                 </li>
                 <li class="menu-item">
-                    <a class="menu-link" href="page-orders-1.html"> <i class="icon material-icons md-shopping_cart"></i>
+                    <a class="menu-link" href="page-orders-2.html"> <i class="icon material-icons md-shopping_cart"></i>
                         <span class="text">Orders</span>
-                    </a>
-                </li>
-                <li class="menu-item">
-                    <a class="menu-link" href="page-orders-detail.html"> <i class="icon material-icons md-details"></i>
-                        <span class="text">Order Details</span>
-                    </a>
-                </li>
-                <li class="menu-item">
-                    <a class="menu-link" href="page-orders-2.html"> <i class="icon material-icons md-reorder"></i>
-                        <span class="text">Order List 2</span>
                     </a>
                 </li>
                 <li class="menu-item">
@@ -88,13 +68,12 @@
                     </a>
                 </li>
                 <li class="menu-item">
-                    <a class="menu-link" href="page-error-404.html"> <i class="icon material-icons md-error"></i>
-                        <span class="text">Error 404</span>
+                    <a class="menu-link" href="page-users.html"> <i class="icon material-icons md-person"></i>
+                        <span class="text">Users</span>
                     </a>
                 </li>
             </ul>
         </nav>
-        
         
     </aside>
     <main class="main-wrap">
@@ -158,8 +137,7 @@
                     <div class="content-header">
                         <h2 class="content-title">Add New Product</h2>
                         <div>
-                            <button class="btn btn-light rounded font-sm mr-5 text-body hover-up">Save to draft</button>
-                            <button class="btn btn-md rounded font-sm hover-up">Publich</button>
+                            <button class="btn btn-md rounded font-sm hover-up">Publish</button>
                         </div>
                     </div>
                 </div>
@@ -183,11 +161,7 @@
                                     </div>
                                     <div class="mb-4">
                                         <label class="form-label">Brand name</label>
-                                        <select class="form-select">
-                                            <option> Adidas </option>
-                                            <option> Nike </option>
-                                            <option> Puma </option>
-                                        </select>
+                                        <input type="text" placeholder="Type here" class="form-control">
                                     </div>
                                 </div> <!-- col.// -->
                             </div> <!-- row.// -->
@@ -198,8 +172,8 @@
                                 </div>
                                 <div class="col-md-9">
                                     <div class="mb-4">
-                                        <label class="form-label">Cost in USD</label>
-                                        <input type="text" placeholder="$00.0" class="form-control">
+                                        <label class="form-label">Cost in INR</label>
+                                        <input type="text" placeholder="₹00.0" class="form-control">
                                     </div>
                                 </div> <!-- col.// -->
                             </div> <!-- row.// -->
@@ -210,42 +184,18 @@
                                 </div>
                                 <div class="col-md-9">
                                     <div class="mb-4">
-                                        <label class="mb-2 form-check form-check-inline" style="width: 45%;">
-                                            <input class="form-check-input" checked="" name="mycategory" type="radio">
-                                            <span class="form-check-label"> Clothes </span>
-                                        </label>
-                                        <label class="mb-2 form-check form-check-inline" style="width: 45%;">
-                                            <input class="form-check-input" name="mycategory" type="radio">
-                                            <span class="form-check-label"> Electronics </span>
-                                        </label>
-                                        <label class="mb-2 form-check form-check-inline" style="width: 45%;">
-                                            <input class="form-check-input" name="mycategory" type="radio">
-                                            <span class="form-check-label"> Sports </span>
-                                        </label>
-                                        <label class="mb-2 form-check form-check-inline" style="width: 45%;">
-                                            <input class="form-check-input" name="mycategory" type="radio">
-                                            <span class="form-check-label"> Automobiles </span>
-                                        </label>
-                                        <label class="mb-2 form-check form-check-inline" style="width: 45%;">
-                                            <input class="form-check-input" name="mycategory" type="radio">
-                                            <span class="form-check-label"> Home interior </span>
-                                        </label>
-                                        <label class="mb-2 form-check form-check-inline" style="width: 45%;">
-                                            <input class="form-check-input" name="mycategory" type="radio">
-                                            <span class="form-check-label"> Smartphones </span>
-                                        </label>
-                                        <label class="mb-2 form-check form-check-inline" style="width: 45%;">
-                                            <input class="form-check-input" name="mycategory" type="radio">
-                                            <span class="form-check-label"> Books </span>
-                                        </label>
-                                        <label class="mb-2 form-check form-check-inline" style="width: 45%;">
-                                            <input class="form-check-input" name="mycategory" type="radio">
-                                            <span class="form-check-label"> Kids item </span>
-                                        </label>
-                                        <label class="mb-2 form-check form-check-inline" style="width: 45%;">
-                                            <input class="form-check-input" name="mycategory" type="radio">
-                                            <span class="form-check-label"> Others </span>
-                                        </label>
+                                        <label class="form-label">Select Category</label>
+                                        <select class="form-select">
+                                            <option>Clothes</option>
+                                            <option>Electronics</option>
+                                            <option>Sports</option>
+                                            <option>Automobiles</option>
+                                            <option>Home interior</option>
+                                            <option>Smartphones</option>
+                                            <option>Books</option>
+                                            <option>Kids item</option>
+                                            <option>Others</option>
+                                        </select>
                                     </div>
                                 </div> <!-- col.// -->
                             </div> <!-- row.// -->
@@ -257,16 +207,16 @@
                                 <div class="col-md-9">
                                     <div class="mb-4">
                                         <label class="form-label">Images</label>
-                                        <input class="form-control" type="file">
-                                    </div>
+                                        <input class="form-control" type="file" multiple accept="image/*">
+                                    </div>                                    
                                 </div> <!-- col.// -->
                             </div> <!-- .row end// -->
                         </div>
                     </div>
                 </div>
             </div>
-            </div>
-        </section> <!-- content-main end// -->
+        </section>
+        <!-- content-main end// -->
         <footer class="main-footer font-xs">
             <div class="row pb-30 pt-15">
                 <div class="col-sm-6">
