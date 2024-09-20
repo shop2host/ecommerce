@@ -135,7 +135,7 @@
         </header>
         <section class="content-main">
             <div class="content-header">
-                <h2 class="content-title">Transactions </h2>
+                <h2 class="content-title">Transactions</h2>
             </div>
             <div class="card">
                 <div class="card-body">
@@ -146,14 +146,6 @@
                                     <div class="col-lg-5 col-6 me-auto">
                                         <input type="text" placeholder="Search..." class="form-control">
                                     </div>
-                                    <div class="col-lg-2 col-6">
-                                        <select class="form-select">
-                                            <option>Method</option>
-                                            <option>Master card</option>
-                                            <option>Visa card</option>
-                                            <option>Paypal</option>
-                                        </select>
-                                    </div>
                                 </div>
                             </header> <!-- card-header end// -->
                             <div class="table-responsive">
@@ -163,8 +155,9 @@
                                             <th>Transaction ID</th>
                                             <th>Paid</th>
                                             <th>Method</th>
+                                            <th>Status</th> <!-- Added Status column -->
                                             <th>Date</th>
-                                            <th class="text-end"> Action </th>
+                                            <th class="text-end">Action</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -177,6 +170,7 @@
                                                     <span class="text text-muted">Amex</span>
                                                 </div>
                                             </td>
+                                            <td><span class="badge bg-success">Success</span></td> <!-- Status -->
                                             <td>16.12.2022, 14:21</td>
                                             <td class="text-end">
                                                 <a href="#" class="btn btn-sm btn-light font-sm rounded">Details</a>
@@ -191,6 +185,7 @@
                                                     <span class="text text-muted">Master card</span>
                                                 </div>
                                             </td>
+                                            <td><span class="badge bg-danger">Fail</span></td> <!-- Status -->
                                             <td>16.12.2022, 14:21</td>
                                             <td class="text-end">
                                                 <a href="#" class="btn btn-sm btn-light font-sm rounded">Details</a>
@@ -205,6 +200,7 @@
                                                     <span class="text text-muted">Paypal</span>
                                                 </div>
                                             </td>
+                                            <td><span class="badge bg-success">Success</span></td> <!-- Status -->
                                             <td>16.12.2022, 14:21</td>
                                             <td class="text-end">
                                                 <a href="#" class="btn btn-sm btn-light font-sm rounded">Details</a>
@@ -219,6 +215,7 @@
                                                     <span class="text text-muted">Visa</span>
                                                 </div>
                                             </td>
+                                            <td><span class="badge bg-danger">Fail</span></td> <!-- Status -->
                                             <td>16.12.2022, 14:21</td>
                                             <td class="text-end">
                                                 <a href="#" class="btn btn-sm btn-light font-sm rounded">Details</a>
@@ -233,6 +230,7 @@
                                                     <span class="text text-muted">Visa</span>
                                                 </div>
                                             </td>
+                                            <td><span class="badge bg-success">Success</span></td> <!-- Status -->
                                             <td>16.12.2022, 14:21</td>
                                             <td class="text-end">
                                                 <a href="#" class="btn btn-sm btn-light font-sm rounded">Details</a>
@@ -247,6 +245,7 @@
                                                     <span class="text text-muted">Visa</span>
                                                 </div>
                                             </td>
+                                            <td><span class="badge bg-danger">Fail</span></td> <!-- Status -->
                                             <td>16.12.2022, 14:21</td>
                                             <td class="text-end">
                                                 <a href="#" class="btn btn-sm btn-light font-sm rounded">Details</a>
@@ -261,6 +260,7 @@
                                                     <span class="text text-muted">Master card</span>
                                                 </div>
                                             </td>
+                                            <td><span class="badge bg-success">Success</span></td> <!-- Status -->
                                             <td>16.12.2022, 14:21</td>
                                             <td class="text-end">
                                                 <a href="#" class="btn btn-sm btn-light font-sm rounded">Details</a>
@@ -275,6 +275,7 @@
                                                     <span class="text text-muted">Master card</span>
                                                 </div>
                                             </td>
+                                            <td><span class="badge bg-danger">Fail</span></td> <!-- Status -->
                                             <td>16.12.2022, 14:21</td>
                                             <td class="text-end">
                                                 <a href="#" class="btn btn-sm btn-light font-sm rounded">Details</a>
@@ -289,6 +290,7 @@
                                                     <span class="text text-muted">Paypal</span>
                                                 </div>
                                             </td>
+                                            <td><span class="badge bg-success">Success</span></td> <!-- Status -->
                                             <td>16.12.2022, 14:21</td>
                                             <td class="text-end">
                                                 <a href="#" class="btn btn-sm btn-light font-sm rounded">Details</a>
@@ -303,6 +305,7 @@
                                                     <span class="text text-muted">Paypal</span>
                                                 </div>
                                             </td>
+                                            <td><span class="badge bg-success">Success</span></td> <!-- Status -->
                                             <td>16.12.2022, 14:21</td>
                                             <td class="text-end">
                                                 <a href="#" class="btn btn-sm btn-light font-sm rounded">Details</a>
@@ -317,6 +320,7 @@
                                                     <span class="text text-muted">Paypal</span>
                                                 </div>
                                             </td>
+                                            <td><span class="badge bg-danger">Fail</span></td> <!-- Status -->
                                             <td>16.12.2022, 14:21</td>
                                             <td class="text-end">
                                                 <a href="#" class="btn btn-sm btn-light font-sm rounded">Details</a>
@@ -331,6 +335,7 @@
                                                     <span class="text text-muted">Visa</span>
                                                 </div>
                                             </td>
+                                            <td><span class="badge bg-success">Success</span></td> <!-- Status -->
                                             <td>16.12.2022, 14:21</td>
                                             <td class="text-end">
                                                 <a href="#" class="btn btn-sm btn-light font-sm rounded">Details</a>
@@ -342,7 +347,7 @@
                         </div> <!-- col end// -->
                         <aside class="col-lg-3">
                             <div class="box bg-light" style="min-height:80%">
-                                <p class="text-center text-muted my-5">Please select transaction <br> to see details</p>
+                                <!-- Removed "Please select transaction to see details" -->
                             </div>
                         </aside> <!-- col end// -->
                     </div> <!-- row end// -->
@@ -361,6 +366,7 @@
                 </nav>
             </div>
         </section>
+        
         <footer class="main-footer font-xs">
             <div class="row pb-30 pt-15">
                 <div class="col-sm-6">
